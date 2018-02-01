@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Calculator</string>
+    <string name="calculate">Laske</string>
+    <string name="empty_all">Tyhjennä kaikki</string>
+    <string name="show_log">Näytä logi</string>
+    <string name="zero">0</string>
+    <string name="plus">+</string>
+    <string name="minus">-</string>
+    <string name="times">*</string>
+    <string name="division">/</string>
+</resources>

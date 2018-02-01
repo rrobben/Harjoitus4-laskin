@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.calculator.MainActivity">
+
+    <EditText
+        android:id="@+id/plus1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="3"
+        android:hint="@string/zero"
+        android:inputType="number"
+        android:singleLine="false" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/plus" />
+
+    <EditText
+        android:id="@+id/plus2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="3"
+        android:hint="@string/zero"
+        android:inputType="number"
+        android:singleLine="false" />
+
+    <Button
+        android:id="@+id/count_plus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="3"
+        android:layout_row="0"
+        android:onClick="count"
+        android:text="@string/calculate" />
+
+    <TextView
+        android:id="@+id/result_plus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="4"
+        android:layout_row="0"
+        android:text="@string/zero" />
+
+    <EditText
+        android:id="@+id/minus1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_row="1"
+        android:ems="3"
+        android:hint="@string/zero"
+        android:inputType="number"
+        android:singleLine="false" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/minus" />
+
+    <EditText
+        android:id="@+id/minus2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="3"
+        android:hint="@string/zero"
+        android:inputType="number"
+        android:singleLine="false" />
+
+    <Button
+        android:id="@+id/count_minus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="3"
+        android:layout_row="1"
+        android:onClick="count"
+        android:text="@string/calculate" />
+
+    <TextView
+        android:id="@+id/result_minus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="4"
+        android:layout_row="1"
+        android:text="@string/zero" />
+
+    <EditText
+        android:id="@+id/times1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_row="2"
+        android:ems="3"
+        android:hint="@string/zero"
+        android:inputType="number"
+        android:singleLine="false" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/times" />
+
+    <EditText
+        android:id="@+id/times2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="3"
+        android:hint="@string/zero"
+        android:inputType="number"
+        android:singleLine="false" />
+
+    <Button
+        android:id="@+id/count_times"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="3"
+        android:layout_row="2"
+        android:onClick="count"
+        android:text="@string/calculate" />
+
+    <TextView
+        android:id="@+id/result_times"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="4"
+        android:layout_row="2"
+        android:text="@string/zero" />
+
+    <EditText
+        android:id="@+id/div1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_row="3"
+        android:ems="3"
+        android:hint="@string/zero"
+        android:inputType="number"
+        android:singleLine="false" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/division" />
+
+    <EditText
+        android:id="@+id/div2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="3"
+        android:hint="@string/zero"
+        android:inputType="number"
+        android:singleLine="false" />
+
+    <Button
+        android:id="@+id/count_div"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="3"
+        android:layout_row="3"
+        android:onClick="count"
+        android:text="@string/calculate" />
+
+    <TextView
+        android:id="@+id/result_div"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="4"
+        android:layout_row="3"
+        android:text="@string/zero" />
+
+    <Button
+        android:id="@+id/empty_all"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_columnSpan="3"
+        android:layout_row="4"
+        android:onClick="emptyAll"
+        android:text="@string/empty_all" />
+
+    <Button
+        android:id="@+id/show_log"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="3"
+        android:layout_row="4"
+        android:text="@string/show_log" />
+
+</GridLayout>
